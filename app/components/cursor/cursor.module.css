@@ -1,0 +1,16 @@
+.cursor {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.05);
+    border: 0.15rem solid var(--white);
+    position: fixed; z-index: 999; pointer-events: none;
+    transition: 0.15s scale, 0.15s border ease-out;
+    transition-delay: 0.15s;
+}
+.cursorSpin {
+
+    transition: 0.2s scale, 0.2s border;
+    border: 0.09rem solid var(--white);
+    scale: 1.75;
+}

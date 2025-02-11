@@ -1,0 +1,14 @@
+.headerButton {
+    outline: 0;
+    border: 0;
+    background: none;
+    color: white;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    transition: 0.15s ease-in-out all;
+    padding: 1rem 1rem;
+}
+.headerButton:hover{
+    color : rgba(255,255,255,0.85);
+    transition: 0.15s ease-in-out all;
+}
